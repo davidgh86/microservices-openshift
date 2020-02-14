@@ -3,6 +3,6 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/davidgh86/microservices-ecosystem
+          uri: https://github.com/davidgh86/microservices-openshift
           search-paths:
             - "ms-config-properties/{application}/{profile}"
