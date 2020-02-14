@@ -1,0 +1,16 @@
+security:
+  jwt:
+    key-store: classpath:keystore.jks
+    key-store-password: letmein
+    key-pair-alias: mytestkey
+    key-pair-password: letmein
+server:
+  port: 9000
+spring:
+  application:
+    name: ms-auth-server
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: ms-config-server

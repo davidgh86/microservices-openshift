@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/davidgh86/microservices-ecosystem
+          search-paths:
+            - "ms-config-properties/{application}/{profile}"
